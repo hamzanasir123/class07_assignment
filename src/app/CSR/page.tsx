@@ -11,7 +11,7 @@ interface CSR {
   category : string
 }
 
-function page() {
+function Page() {
 
 const [apiData, setApiData] = useState<CSR[]>([]);
 const [loading, setLoading] = useState(true);
@@ -64,4 +64,4 @@ const [loading, setLoading] = useState(true);
   )
 }
 
-export default page
+export default Page
